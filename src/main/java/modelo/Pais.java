@@ -4,11 +4,13 @@
  */
 package modelo;
 
+import java.io.Serializable;
+
 /**
  *
  * @author andyj
  */
-public class Pais {
+public class Pais implements Serializable{
     
     private int codigo;
     private int numeroReferencia;

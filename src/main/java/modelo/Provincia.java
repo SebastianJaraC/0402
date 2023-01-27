@@ -4,11 +4,13 @@
  */
 package modelo;
 
+import java.io.Serializable;
+
 /**
  *
  * @author andyj
  */
-public class Provincia {
+public class Provincia implements Serializable{
     
     private Pais pais;
     private int codigo;

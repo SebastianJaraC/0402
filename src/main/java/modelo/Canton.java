@@ -4,11 +4,13 @@
  */
 package modelo;
 
+import java.io.Serializable;
+
 /**
  *
  * @author andyj
  */
-public class Canton {
+public class Canton implements Serializable{
     
     private int codigo;
     private Provincia provincia;

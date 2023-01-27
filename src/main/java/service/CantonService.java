@@ -14,9 +14,15 @@ import modelo.Canton;
 public interface CantonService {
 
     
-    public void crear(Canton canton);
+   public void crear(Canton canton);
 
     public Canton buscarPorCodigo(int codigo);
+
     public void eliminar(int codigo);
+
     public List<Canton> listar();
+    
+    public void almacenarArchivo(Canton canton, String ruta);
+
+    public List<Canton> recuperarArchivo(String ruta);
 }

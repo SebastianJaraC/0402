@@ -23,4 +23,8 @@ public interface ProvinciaService {
 
     public List<Provincia> listar();
     
+    public void almacenarArchivo(Provincia provincia, String ruta);
+
+    public List<Provincia> recuperarArchivo(String ruta);
+    
 }
